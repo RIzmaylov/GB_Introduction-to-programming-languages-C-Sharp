@@ -16,7 +16,8 @@ switch(numTask)
     {
         Console.WriteLine("Задача 19: Написать программу, которая принимает на вход пятизначное число и проверяет, является ли оно палиндромом.");
         Console.Write("Введите целое число: ");        
-        string? numberInString = Console.ReadLine();
+        int number = Convert.ToInt32(Console.ReadLine());
+        string numberInString = Convert.ToString(number);
         int step = 0;
         int stringLength = numberInString.Length;
         while (step != stringLength / 2)
