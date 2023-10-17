@@ -6,7 +6,7 @@
 int RecDegree(int A, int B)
 {
     if (B == 0) return 1;
-    return A * RecDergree(A, B - 1);
+    return A * RecDegree(A, B - 1);
 }
 
 Console.Write("Введите число A: ");
